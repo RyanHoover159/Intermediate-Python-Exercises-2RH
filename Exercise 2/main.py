@@ -9,9 +9,9 @@ def fibonacci(n):
 
 n = random.randint(15, 35)
 
-start_time = time.time()
+start = time.time()
 result = fibonacci(n)
-end_time = time.time()
+end = time.time()
 
 print(f"fib({n}): {result}")
-print(f"fib({n}) took {end_time - start_time} seconds")
+print(f"fib({n}) took {end - start} seconds")
